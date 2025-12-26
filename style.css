@@ -1,0 +1,112 @@
+.big {
+  width: 800px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #fbfbe9;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(kitchen.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 60px;
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.second {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.work-item img {
+  max-width: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  filter: blur(60%);
+  }
+
+.works {
+  display: flex;
+  flex-basis: 60%;
+  gap: 10px;
+}
+
+.text {
+  flex-basis: 40%;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work-item {
+  flex-basis: 33.3333%;
+  height: auto;
+}
+
+.third {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fourth {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grey-hover:hover {
+  filter: grayscale(80%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #2563eb;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-decoration: none; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#scrollToTopBtn:hover {
+  background-color: #1d4ed8;
+}
+
+.clarification {
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  padding-top: 30px;
+}
